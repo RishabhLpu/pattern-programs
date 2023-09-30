@@ -1,0 +1,11 @@
+//print pattern with one loop.
+#include <stdio.h>
+int main() {
+    // Write C code here
+    int i;
+    for(i=1;i<=5;i++)
+    {
+    printf("%*.s\n",1,i,"*****");
+}
+    return 0;
+}
